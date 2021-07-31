@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="maths.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>TABUADA</title>
+</head>
+<body>
+    
+    <header>
+        <img src="maths.ico" alt="operacoes">
+        <h1>TABUADA</h1>
+    </header>
+
+    <section>
+        <div class="dados">
+            <p>Número: <input type="number" name="num" id="txtn"> <input type="button" value="Gerar Tabuada" onclick="tabuada(),tabuadasub(),tabuadamult(),tabuadadiv()"> </p>
+        </div>
+
+        <div class="resultados">
+            <span class="somar">
+                <p>SOMAR</p>
+                <select name="tabuada" id="seltab" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+            </span>
+
+            <span class="subtrair"> 
+                <p>SUBTRAIR</p>
+                <select name="tabuadasub" id="seltabsub" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+            </span>
+            
+            <span class="multiplicar">
+                <p>MULTIPLICAR</p>
+                <select name="tabuadamult" id="seltabmult" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+            </span>
+            
+            <span class="dividir"> 
+                <p>DIVIDIR</p>
+                <select name="tabuadadiv" id="seltabdiv" size="10">
+                    <option>Digite um número acima</option>
+                </select>
+            </span>
+        </div>
+    </section>
+
+    <footer>&copy; DIUEL MOURA</footer>
+    <script src="script.js"></script>
+</body>
+</html>
